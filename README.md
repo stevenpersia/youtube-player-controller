@@ -24,11 +24,11 @@ Icons comes from [icon8](https://icons8.com/).
 ---
 
 ## Demo
-Check this online demo : https://codepen.io/stevenpersia/pen/XPzQPB
+Check CodePen online demo : https://codepen.io/stevenpersia/pen/XPzQPB
 
 ---
 
-## Thank you for supporting me
+## Thank you for support
 <a href="https://www.buymeacoffee.com/stevenpersia" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
