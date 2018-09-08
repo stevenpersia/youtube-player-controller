@@ -7,12 +7,12 @@ Here's how to play a YouTube video without being spoiled, especially during the 
 
 It's an improvement of a tutorial realized by [TutorialZine (Danny Markov)](https://tutorialzine.com/2015/08/how-to-control-youtubes-video-player-with-javascript) to adapt it to my needs. I made a small interface and added a feature of forward and rewind for my other [repository](https://github.com/stevenpersia/Esport-VODs). I hope he does not blame me! :)
 
-Icons come from [icon8](https://icons8.com/).
+Icons comes from [icon8](https://icons8.com/).
 
 ---
 
 ## Features
-- video starts at the time you want
+- Video starts at the time you want
 - Hide current time and video duration
 - Hide progress bar
 - Play and pause buttons
