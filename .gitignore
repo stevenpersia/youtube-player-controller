@@ -1,2 +1,4 @@
 
 .DS_Store
+* linguist-vendored
+*.js linguist-vendored=false
