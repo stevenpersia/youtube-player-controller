@@ -1,4 +1,4 @@
-# YouTube Controller
+# YouTube Player Controller
 ![alt text](https://forthebadge.com/images/badges/made-with-javascript.svg "Made with JavaScript")
 ![alt text](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg "60% of the time works every time")
 ![alt text](https://forthebadge.com/images/badges/built-with-swag.svg "Built with swag")
