@@ -1,0 +1,270 @@
+#controls .play {
+  background: url("img/play.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .play:hover {
+  background: url("img/play-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .pause {
+  background: url("img/pause.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .pause:hover {
+  background: url("img/pause-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .mute {
+  background: url("img/mute.png");
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#controls .mute:hover {
+  background: url("img/mute-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .unmute {
+  background: url("img/unmute.png");
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#controls .unmute:hover {
+  background: url("img/unmute-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .quality-icon {
+  background: url("img/quality.png");
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#controls .quality-icon:hover {
+  background: url("img/quality-hover.png");
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#controls .speed-icon {
+  background: url("img/speed.png");
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#controls .speed-icon:hover {
+  background: url("img/speed-hover.png");
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+#controls .fullscreen {
+  background: url("img/fullscreen.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .fullscreen:hover {
+  background: url("img/fullscreen-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s5back {
+  background: url("img/s5back.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s5back:hover {
+  background: url("img/s5back-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s10back {
+  background: url("img/s10back.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s10back:hover {
+  background: url("img/s10back-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s30back {
+  background: url("img/s30back.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s30back:hover {
+  background: url("img/s30back-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s5forward {
+  background: url("img/s5forward.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s5forward:hover {
+  background: url("img/s5forward-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s10forward {
+  background: url("img/s10forward.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s10forward:hover {
+  background: url("img/s10forward-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s30forward {
+  background: url("img/s30forward.png");
+  width: 36px;
+  height: 36px;
+}
+
+#controls .s30forward:hover {
+  background: url("img/s30forward-hover.png");
+  width: 36px;
+  height: 36px;
+}
+
+
+/* PAGE GAME VIDEO PLACEHOLDER */
+#video-placeholder {
+  max-width: 100%;
+  width: 100%;
+  top: 130px;
+  right: 40px;
+}
+
+#controls  {
+}
+
+#progress-bar {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+#controls  i {
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.speed-control, .quality-control, .volume-control {
+  margin-top: -4px;
+}
+
+.speed-control:hover #speed {
+  display: block;
+}
+
+#speed {
+  position: absolute;
+  margin-left: -11px;
+  margin-top: -60px;
+  display: none;
+}
+
+
+.quality-control:hover #quality {
+  display: block;
+}
+
+#quality {
+  position: absolute;
+  margin-left: -22px;
+  margin-top: -63px;
+  display: none;
+}
+
+.mute + #volume-input {
+  display: none !important;
+}
+
+.volume-control:hover #volume-input {
+  display: block;
+}
+
+#volume-input{
+  height: 85px;
+  width: 85px;
+  display: none;
+}
+
+input[type=range]{
+  -webkit-appearance: none;
+  -webkit-transform:rotate(-90deg);
+  position: absolute;
+  margin-top: -120px;;
+  margin-left: -23px;
+  background: transparent;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 7px;
+  background: #FFF;
+  border-radius: 3px;
+  border: 1px solid #666;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #e74c3c;
+  margin-top: -5px;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+}

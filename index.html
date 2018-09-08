@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Custom YouTube Player</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<div id="game-start">
+    <div id="video-placeholder"></div>
+    <script type="text/javascript">
+        var player,
+            time_update_interval = 0;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('video-placeholder', {
+                width: '100%',
+                height: '625px',
+                videoId: 'yDx1rjaKG2E',
+                playerVars: {
+                    start: '570',
+                    color: 'white',
+                    controls: 0,
+                    rel: 0,
+                    showinfo: 0
+                },
+                events: {
+                    onReady: initialize,
+                }
+            });
+        }
+    </script>
+
+    <div id="controls" class="d-flex justify-content-between align-items-center noselect">
+        <div class="volume-control">
+            <i id="mute-toggle" class="unmute"></i>
+            <input id="volume-input" type="range" max="100" min="0">
+        </div>
+        <div class="quality-control">
+            <i id="quality-icon" class="quality-icon"></i>
+            <select id="quality">
+                <option>small</option>
+                <option>medium</option>
+                <option selected="selected">large</option>
+                <option>hd720</option>
+                <option>hd1080</option>
+                <option>highres</option>
+            </select>
+        </div>
+        <i id="s30back" class="s30back"></i>
+        <i id="s10back" class="s10back"></i>
+        <i id="s5back" class="s5back"></i>
+        <i id="play" class="play"></i>
+        <i id="pause" class="pause"></i>
+        <i id="s5forward" class="s5forward"></i>
+        <i id="s10forward" class="s10forward"></i>
+        <i id="s30forward" class="s30forward"></i>
+        <div class="speed-control">
+            <i id="speed-icon" class="speed-icon"></i>
+            <select id="speed">
+                <option>0.25</option>
+                <option>0.5</option>
+                <option selected="selected">1</option>
+                <option>1.5</option>
+                <option>2</option>
+            </select>
+        </div>
+        <i id="fullscreen" class="fullscreen"></i>
+    </div>
+</div>
+
+<!-- SCRIPT VIDEO PLAYER -->
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
