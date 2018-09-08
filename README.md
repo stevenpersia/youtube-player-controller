@@ -5,13 +5,14 @@
 
 Here's how to play a YouTube video without being spoiled, especially during the duration of the video. Indeed, it often happens when you watch a VOD of an esport event, quickly guess the final score of the match.
 
-It is an improvement of a tutorial realized by TutorialZine (Danny Markov) to adapt it to my needs : https://tutorialzine.com/2015/08/how-to-control-youtubes-video-player-with-javascript
+It's an improvement of a tutorial realized by [TutorialZine (Danny Markov)](https://tutorialzine.com/2015/08/how-to-control-youtubes-video-player-with-javascript) to adapt it to my needs. I made a small interface and added a feature of forward and rewind for my other [repository](https://github.com/stevenpersia/Esport-VODs). I hope he does not blame me! :)
 
-I hope he does not blame me! :)
+Icons come from [icon8](https://icons8.com/).
 
 ---
 
 ## Features
+- video starts at the time you want
 - Hide current time and video duration
 - Hide progress bar
 - Play and pause buttons
@@ -23,11 +24,11 @@ I hope he does not blame me! :)
 ---
 
 ## Demo
-Soon!
+Check this online demo : https://codepen.io/stevenpersia/pen/XPzQPB
 
 ---
 
-## Do you like it ?
+## Thank you for supporting me
 <a href="https://www.buymeacoffee.com/stevenpersia" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
