@@ -24,7 +24,7 @@ Icons comes from [icon8](https://icons8.com/).
 ---
 
 ## Demo
-Check CodePen online demo : https://codepen.io/stevenpersia/pen/XPzQPB
+Check online demo : https://codepen.io/stevenpersia/full/XPzQPB
 
 ---
 
