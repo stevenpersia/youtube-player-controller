@@ -12,11 +12,12 @@ It's an improvement of a tutorial realized by [TutorialZine (Danny Markov)](http
 
 Icons comes from [icon8](https://icons8.com/).
 
-![](https://github.com/stevenpersia/youtube-player-controller/blob/master/img/preview-video.png)
+[![](https://github.com/stevenpersia/youtube-player-controller/blob/master/img/preview-video.png)](https://codepen.io/stevenpersia/full/XPzQPB)
 
 ---
 
 ## Features
+
 - Video starts at the time you want
 - Hide current time and video duration
 - Hide progress bar
@@ -29,4 +30,5 @@ Icons comes from [icon8](https://icons8.com/).
 ---
 
 ## Demo
+
 Check online demo : https://codepen.io/stevenpersia/full/XPzQPB
